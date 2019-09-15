@@ -1,0 +1,188 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0;
+}
+
+
+
+
+.header-color {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.header {
+	height: 70px;
+}
+.header-flex {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+.header-nav {
+	display: flex;
+	justify-content: center;
+}
+.header-nav-1 {
+	display: flex;
+	justify-content: center;
+}
+.header-nav-1 > a {
+	color: red;
+}
+.header-nav > a {
+	color: #767676;
+}
+.header-nav:hover > a {
+	color: red;
+	transition: 0.5s;
+}
+
+
+
+
+.sidebar-back {
+	background: url(img/pattern.png)
+}
+.sidebar-midel {
+	display: flex;
+	justify-content: center;
+}
+.sidebar-img {
+	margin-top: 30px;
+}
+.sidebar-flex {
+	display: flex;
+	justify-content: center;
+}
+.sidebar-flex:hover > img {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	transition: 0.5s;
+}
+
+
+.checking {
+	margin-top: 60px;
+}
+.check {
+	display: flex;
+	align-items: center;
+}
+.check p {
+	margin-left: 30px;
+	color: #E8663C;
+	font-size: 16px;
+}
+.check-text {
+	margin-top: 30px;
+}
+.check-text p {
+	color: #515151;
+}
+.check-btn {
+	width: 56px;
+	height: 31px;
+	background-color: #E8663C;
+	color: #fff;
+	border: none;
+	transition: 0.5s;
+	margin-top: 30px;
+}
+.check-btn:hover {
+	background-color: #931104;
+	transition: 0.5s;
+}
+.recent {
+	margin-top: 60px;
+}
+.recent-text {
+	color: #E8663C;
+	font-size: 16px;
+
+}
+
+
+
+.folder-flex {
+	display: flex;
+	justify-content: center;
+}
+.folder {
+	border: 2px solid #F5F5F5;
+}
+.folder h4 {
+	margin-top: 20px;
+	color: #9F9F9F;
+}
+.folder p {
+	color: #E8663C;
+}
+
+
+
+.footer-color {
+	background-color: #FFBBA4; 
+	margin-top: 60px;
+}
+.footor-back {
+	height: 263px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+}
+.footor-front {
+	width: 1100px;
+	height: 263px;
+	background-color: #E8663C;
+	padding: 20px;
+}
+.footer-flex {
+	display: flex;
+	justify-content: center;
+}
+.footer-center h4 {
+	color: #fff;
+}
+.footer-center p {
+	color: #fff;
+}
+.footer-center span {
+	color: #fff;
+}
+.footer-center-2 h4 {
+	color: #fff;
+}
+.footer-center-2 p {
+	color: #fff;
+}
+.footer-center-2 p > span {
+	color: #9F9F9F;
+}
+.center-margin {
+	margin-top: 30px;
+}
+.footer-center-3 h4 {
+	color: #fff;
+}
+.footer-center-3 p {
+	color: #fff;
+}
+.footer-center-3 span {
+	color: #fff;
+}
+.footer-servise {
+	margin-top: 30px;
+}
+.footer-servise img:hover {
+	cursor: pointer;
+}
+
+
